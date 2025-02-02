@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Módulo 1 - Desenvolvimento de Aplicativos Web e Funções no Azure", "Módulo 1 - Desenvolvimento de Aplicativos Web e Funções no Azure", "{E84C3DEC-04F0-7EA3-5A4C-013EDAA762BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Curso 2 - Implementando o Azure Functions", "Curso 2 - Implementando o Azure Functions", "{BAFEBA0C-539D-1071-36FE-C2F2CE6D2ADA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercícios", "Exercícios", "{DEE2B790-A94E-4C2F-5A4F-0B651BDD27E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex.1", "Módulo 1 - Desenvolvimento de Aplicativos Web e Funções no Azure\Curso 2 - Implementando o Azure Functions\Exercícios\Ex.1\Ex.1.csproj", "{2A9A5E91-D5D6-C68D-3449-96A7EE0FA48D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex.1 (1)", "Ex.1 (1)", "{BDAE260C-51C5-0A4E-0AE4-FBD7FED868FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{8E4253D1-3D00-CEDB-387B-AF5D6079E44D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{5720CE0D-5E84-2560-992B-2C658E7E0E91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{07EDBE02-0762-E5C1-5B8B-07A46D00F308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerExtensions", "Módulo 1 - Desenvolvimento de Aplicativos Web e Funções no Azure\Curso 2 - Implementando o Azure Functions\Exercícios\Ex.1\obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{B421ED2A-1283-9479-182C-ECCC94432669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A9A5E91-D5D6-C68D-3449-96A7EE0FA48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9A5E91-D5D6-C68D-3449-96A7EE0FA48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9A5E91-D5D6-C68D-3449-96A7EE0FA48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9A5E91-D5D6-C68D-3449-96A7EE0FA48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B421ED2A-1283-9479-182C-ECCC94432669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B421ED2A-1283-9479-182C-ECCC94432669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B421ED2A-1283-9479-182C-ECCC94432669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B421ED2A-1283-9479-182C-ECCC94432669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAFEBA0C-539D-1071-36FE-C2F2CE6D2ADA} = {E84C3DEC-04F0-7EA3-5A4C-013EDAA762BD}
+		{DEE2B790-A94E-4C2F-5A4F-0B651BDD27E3} = {BAFEBA0C-539D-1071-36FE-C2F2CE6D2ADA}
+		{2A9A5E91-D5D6-C68D-3449-96A7EE0FA48D} = {DEE2B790-A94E-4C2F-5A4F-0B651BDD27E3}
+		{BDAE260C-51C5-0A4E-0AE4-FBD7FED868FC} = {DEE2B790-A94E-4C2F-5A4F-0B651BDD27E3}
+		{8E4253D1-3D00-CEDB-387B-AF5D6079E44D} = {BDAE260C-51C5-0A4E-0AE4-FBD7FED868FC}
+		{5720CE0D-5E84-2560-992B-2C658E7E0E91} = {8E4253D1-3D00-CEDB-387B-AF5D6079E44D}
+		{07EDBE02-0762-E5C1-5B8B-07A46D00F308} = {5720CE0D-5E84-2560-992B-2C658E7E0E91}
+		{B421ED2A-1283-9479-182C-ECCC94432669} = {07EDBE02-0762-E5C1-5B8B-07A46D00F308}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BE4EE92-2F4B-4BDB-9984-053ADC56D7BA}
+	EndGlobalSection
+EndGlobal
